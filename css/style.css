@@ -1,0 +1,79 @@
+h2 {
+    font-family: Raleway;
+}
+
+h3 {
+    font-family: Open Sans;
+}
+
+
+section {
+    background-color: hsl(218, 28%, 13%);
+}
+
+.menu  {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.lista-do-menu {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: #666D79;
+    transition: 0.7s ease-in-out ;
+}
+
+
+.menu-2:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    align-items: center ;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.bnt {
+    background-color: hsl(198, 60%, 50%);
+    padding: 15px 50px;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.bnt:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+.sequencia-de-topicos {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.topico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.texto-do-topico {
+    max-width: 46%;
+    display: flex;
+    align-items: center;
+    
+}
