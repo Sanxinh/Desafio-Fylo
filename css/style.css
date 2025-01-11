@@ -66,47 +66,112 @@ main {
     grid: 
     " .  topico-1 topico-2 . " 
     " .  topico-3 topico-4 . ";
-    grid-gap: 30px;
-    grid-template-columns: minmax(240px, 358px) minmax(240px, 358px) minmax(240px, 358px) minmax(240px, 358px);
-    
-    
+    grid-gap: 50px 100px;
+    grid-template-columns: minmax(240px, 370px) minmax(240px, 370px) minmax(240px, 370px) minmax(240px, 370px);
 
 }
 
+.img-topico-1 {
+    padding: 20px;
+}
+
+.img-topico-2 {
+    padding: 20px;
+}
+
+.img-topico-3 {
+    padding: 20px;
+}
+
+.img-topico-4 {
+    padding: 20px;
+}
+
+
+
+
 .topico-1 {
-    background-color: aquamarine;
     grid-area: topico-1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
     gap: 10px;
-
 }
 
 .topico-2 {
-    background-color: orangered;
     grid-area: topico-2;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
 }
 
 .topico-3 {
-    background-color: hotpink;
     grid-area: topico-3;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
 }
 
 .topico-4 {
-    background-color: blueviolet;
     grid-area: topico-4;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.imagem-com-informacao {
+   align-items: center;
+   padding-left: 180px;
+   gap: 70px;
+}
+
+.texto-informativo {
+    padding: 15px;
+    display: grid;
 
 }
+
+.titulo-informativo {
+    display: grid;
+    grid-template-columns: minmax(200px, 250px);
+}
+
+.paragrafo-informativo-1 {
+    display: grid;
+    grid-template-columns: minmax(325px, 450px);
+}
+
+.paragrafo-informativo-2 {
+    display: grid;
+    grid-template-columns: minmax(325px, 500px);
+}
+
+.link-do-informativo::after {
+    content: url(/images/icon-arrow.svg);
+    background: url(/images/icon-arrow.svg) center center no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+
+}
+
+.link-do-informativo:hover {
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
+
+.link-do-informativo {
+    display: flex;
+}
+
