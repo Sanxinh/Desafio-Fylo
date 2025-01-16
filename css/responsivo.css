@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 576px) {
+
+    .menu {
+        width: 100%;
+    }
+
+    .main-1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .texto-paragrafo-1 {
+        width: 100px;
+        
+    }
+}
